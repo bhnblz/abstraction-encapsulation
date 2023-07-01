@@ -12,6 +12,7 @@ pet.set_animal_type(pi.animal_type())
 pet.set_age(pi.age())
 
 # Display the pet's name, type, and age
-print("\nPet's Name: ", pet.get_name())
-print("Animal Type: ", pet.get_animal_type())
-print("Pet's Age: ", pet.get_age())
+print("\n\033[36mGenerating...")
+print("\033[31mPet's Name: ", pet.get_name())
+print("\033[32mAnimal Type: ", pet.get_animal_type())
+print("\033[33mPet's Age: ", pet.get_age())
