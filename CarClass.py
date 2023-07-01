@@ -16,3 +16,11 @@ class Car:
     def get_speed(self):
         #return the speed attribute
         return self.__speed
+    
+# Create a car object
+car = Car(2012, "Ford")
+print("\nThe car is accelerating...\n")
+# Call the speed attribute five times
+for i in range(5):
+    car.accelerate()
+    print("The current speed is: ", car.get_speed())
