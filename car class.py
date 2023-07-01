@@ -9,6 +9,7 @@ class Car:
 # accelarate method that add 5 to the speed attributes each time it is called
     def accelerate(self):
         self.__speed += 5
-
-# brake method
+# brake method that subtract 5 to the speed attributes each time it is called
+    def brake(self):
+        self.__speed -= 5
 # get speed method
