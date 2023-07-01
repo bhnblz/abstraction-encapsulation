@@ -13,3 +13,6 @@ class Car:
     def brake(self):
         self.__speed -= 5
 # get speed method
+    def get_speed(self):
+        #return the speed attribute
+        return self.__speed
